@@ -1,0 +1,153 @@
+
+body {
+  background: radial-gradient(circle at top, #f5f5f5 0%, #d9e3dc 35%, #1b1f23 100%);
+  color: #f5f5f5;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+a {
+  color: #9ad08b;
+  text-decoration: none;
+  transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 6px rgba(154, 208, 139, 0.8);
+}
+
+#container,
+#main,
+.content,
+.table,
+.box {
+  background: rgba(15, 18, 22, 0.85);
+  border: 1px solid #3b4b3f;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+h1, h2, h3, .header, .topbar {
+  background: linear-gradient(90deg, #24352a, #3f5b46);
+  color: #f5f5f5;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-bottom: 1px solid #9ad08b;
+}
+
+#navbar, .navbar, .topnav {
+  background: #111417;
+  border-bottom: 2px solid #3b4b3f;
+}
+
+#navbar a,
+.navbar a,
+.topnav a {
+  color: #e0f0e5;
+  padding: 6px 10px;
+  font-weight: 500;
+}
+
+#navbar a:hover,
+.navbar a:hover,
+.topnav a:hover {
+  background: #24352a;
+  color: #ffffff;
+}
+
+input[type="submit"],
+input[type="button"],
+button,
+.button {
+  background: #3f5b46;
+  color: #f5f5f5;
+  border: 1px solid #9ad08b;
+  border-radius: 4px;
+  padding: 4px 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.button:hover {
+  background: #9ad08b;
+  color: #111417;
+  transform: translateY(-1px);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr:nth-child(even) {
+  background: rgba(36, 53, 42, 0.7);
+}
+
+table tr:nth-child(odd) {
+  background: rgba(19, 24, 27, 0.9);
+}
+
+table th {
+  background: #24352a;
+  color: #f5f5f5;
+  border-bottom: 1px solid #9ad08b;
+}
+
+table td, table th {
+  border: 1px solid #3b4b3f;
+  padding: 4px 6px;
+}
+
+.success, .alert-success {
+  background: rgba(154, 208, 139, 0.15);
+  border-left: 3px solid #9ad08b;
+  color: #e8ffe3;
+}
+
+.error, .alert-error, .alert-danger {
+  background: rgba(160, 40, 40, 0.15);
+  border-left: 3px solid #c23b3b;
+  color: #ffd6d6;
+}
+
+#sidebar, .sidebar {
+  background: rgba(11, 14, 16, 0.9);
+  border: 1px solid #3b4b3f;
+}
+
+#footer {
+  background: #111417;
+  color: #9aa3a8;
+  border-top: 1px solid #3b4b3f;
+}
+
+/* Subtle “glitch” hover on lion images */
+img {
+  transition: filter 0.2s ease, transform 0.1s ease;
+}
+
+img:hover {
+  filter: contrast(1.1) saturate(1.1);
+  transform: translateX(1px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111417;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3f5b46;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ad08b;
+}
